@@ -10,7 +10,7 @@ def verify_license(url_id):
     }
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
-        if response.text == "pukiyemandkontole":
+        if response.text == "U2FsdGVkX18jIXzMRGh/Ao/w1k/QaSGhCSj//tJAq2I=":
             print("SCRIPT BY KRAZY BRAZY")
             for char in tqdm("Request was successful!", total=len("Request was successful!"), ncols=100):
                 time.sleep(0.1)
