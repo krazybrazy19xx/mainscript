@@ -1,0 +1,18 @@
+{
+  "disclaimer_header": "DISCLAIMER!!!!",
+  "copyright": "© 2024 LICENSED BY @krazybrazyyyy",
+  "license_key_prompt": "Please enter the LICENSE KEY: ",
+  "script_by": "SCRIPT BY KRAZY BRAZY",
+  "request_successful": "Request was successful!",
+  "response_unexpected": "Response text is not as expected. Please enter the URL ID again.",
+  "request_failed_404": "Request failed with status code: 404. Please enter the LICENSE KEY again.",
+  "request_failed": "Request failed with status code: {status_code}",
+  "channel_info": "CHANNEL: @TRIPLEZZX",
+  "menu_title": "Menu:",
+  "menu_option_1": "1. Run Script 1 (Create Sessions)",
+  "menu_option_2": "2. Run Script 2 (Generate Query)",
+  "menu_option_3": "3. Exit",
+  "menu_prompt": "Enter your choice (1/2/3): ",
+  "exiting": "Exiting...",
+  "invalid_choice": "Invalid choice. Please try again."
+}
