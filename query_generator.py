@@ -17,6 +17,6 @@ async def generate_query(client, peer: str, bot: str, start_param: str, shortnam
     
     return query
 
-# Tambahkan ini di akhir file
+# Tambahkan ini di akhir file untuk memudahkan pengujian dan impor
 if __name__ == "__main__":
-    print("This module is not meant to be run directly.")
+    print("This module contains the generate_query function for use in the main script.")
