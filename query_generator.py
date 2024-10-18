@@ -16,3 +16,7 @@ async def generate_query(client, peer: str, bot: str, start_param: str, shortnam
     query = urllib.parse.unquote(string=query_url.split('tgWebAppData=')[1].split('&tgWebAppVersion')[0])
     
     return query
+
+# Tambahkan ini di akhir file
+if __name__ == "__main__":
+    print("This module is not meant to be run directly.")
